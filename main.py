@@ -31,7 +31,7 @@ def print_welcome_back_art(name):
     print(f"""
     ╔══════════════════════════════════╗
     ║        Welcome Back!             ║
-    ║      {name} missed you!           ║
+    ║      {name} missed you!          ║
     ╚══════════════════════════════════╝
     """)
 
@@ -39,12 +39,12 @@ def print_quit_art(name):
     print(f"""
     ╔══════════════════════════════════╗
     ║           Goodbye!               ║
-    ║    {name} will miss you!          ║
-    ║                                 ║
-    ║    /\\___/\\                      ║
-    ║   (  T_T  )                     ║
-    ║   (  =^=  )                     ║
-    ║    (____)                       ║
+    ║    {name} will miss you!         ║
+    ║                                  ║
+    ║    /\\___/\\                     ║
+    ║   (  T_T  )                      ║
+    ║   (  =^=  )                      ║
+    ║    (____)                        ║
     ╚══════════════════════════════════╝
     """)
 
@@ -68,12 +68,12 @@ def main():
             print(f"""
     ╔══════════════════════════════════╗
     ║           Game Over!             ║
-    ║      {pet.name} has died...        ║
-    ║                                 ║
-    ║    /\\___/\\                      ║
-    ║   (  x x  )                     ║
-    ║   (  =^=  )                     ║
-    ║    (____)                       ║
+    ║      {pet.name} has died...      ║
+    ║                                  ║
+    ║    /\\___/\\                     ║
+    ║   (  x x  )                      ║
+    ║   (  =^=  )                      ║
+    ║    (____)                        ║
     ╚══════════════════════════════════╝
             """)
             pet.delete_save()  # Delete save file when pet dies
